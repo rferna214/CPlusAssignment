@@ -4,7 +4,7 @@
 int main() {
     // create a Statistician object named s1 using its one-arg 
     // constructor giving it an argument of 3.5
-    Statistician s1;
+    Statistician s1(3.5);
 
     // declare local variables that will be used when calling 
     // s1's getter method

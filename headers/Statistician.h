@@ -62,9 +62,10 @@ Statistician::Statistician(){
     sum =0;
 }
 Statistician::Statistician(double num){
-    lowest = this->num;
-    highest = this->num;
-    sum =this->num;
+    this->num = num;
+    this->lowest = num;
+    this->highest = num;
+    this->sum = num;
 }
 void Statistician::getStatistician(double& lowest, double& highest,double& sum) const{
     sum = this->sum;
