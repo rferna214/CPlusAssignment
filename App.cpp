@@ -63,6 +63,7 @@ int main() {
 
     // call method on s2 that will add the double numbers to it 
     // that will cause it to be equal to s1
+    s2.addNumber(3.5);
     s2.addNumber(5.2);
     s2.addNumber(-7.8);
 

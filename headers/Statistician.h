@@ -81,17 +81,17 @@ void Statistician::addNumber(double num){
 
 }
 void Statistician::computeHighest(){
-    if (num > lowest)
+    if (num > highest)
     highest = num;
 }
 void Statistician::computeLowest(){
-    if (num < highest){
+    if (num < lowest){
         lowest = num;
     }
 }
 
 void Statistician::computeSum(){
-    sum = highest + lowest;
+    sum +=num;
 }
 
 void Statistician::printStatistician() const{
